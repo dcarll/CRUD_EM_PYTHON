@@ -52,7 +52,7 @@ with conectar() as conexao:
         conexao.commit()
 
 
-'''conexão para atualizar tabela'''
+'''conexão para atualizar tabelaa'''
 with conectar() as conexao:
     with conexao.cursor() as cursor:
         sql_command = 'UPDATE clientes SET nome=%s WHERE id=%s'
